@@ -1,0 +1,35 @@
+.header {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    &__logo {
+        img {
+            width: 100px;
+        }
+    }
+    &__nav {
+        color: white;
+        ul {
+            display: flex;
+            gap: 1.5rem;
+            li {
+                a {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: white;
+                    &:hover {
+                        color: #00ffb7;
+                    }
+                }
+            }
+        }
+    }
+    .nuxt-link-exact-active {
+        color: #00ffb7;
+    }
+}

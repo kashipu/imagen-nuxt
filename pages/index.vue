@@ -1,13 +1,18 @@
 <template>
-  
+  <div>
+    <Header/>
+    <div class="slider">
+      <div class="slider__text">
+        <p>Somos tejido colectivo</p>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style scoped>
-  h1 {
-    color: red;
-  }
-</style>
-
 <script>
-/* export default {} */
+export default {
+    head: {
+      title: "Imagen Latente | Tejido creativo"
+    }
+}
 </script>
