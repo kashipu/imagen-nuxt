@@ -1,11 +1,14 @@
 .header {
-    font-family: 'Merriweather', serif;
     font-weight: 700;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: $black;
     padding: 1rem;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     &__logo {
         img {
             width: 100px;
@@ -31,5 +34,41 @@
     }
     .nuxt-link-exact-active {
         color: #00ffb7;
+    }
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    .header {
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        &__logo {
+            width: 100%;
+            img {
+                width: 100px;
+            }
+        }
+        &__nav {
+            display: none;
+            color: white;
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                li {
+                    a {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-weight: 700;
+                        color: white;
+                        &:hover {
+                            color: #00ffb7;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

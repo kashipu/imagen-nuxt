@@ -1,8 +1,10 @@
 <template>
 <div>
     <div class="personaje">
-        <NuxtLink to="/">
-        <img class="personaje__img" :src="require(`~/assets/images/${image}`)" :alt="title">
+        <NuxtLink :to="url">
+        <div class="personaje__img">
+            <img :src="require(`~/assets/images/${image}`)" :alt="title">
+        </div>
         <div class="personaje__body">
             <div class="personaje__nombre">
                 <h2>{{ title }}</h2>
@@ -23,6 +25,10 @@ export default {
         image: {
             type: String,
             default: "http://via.placeholder.com/400x400"
+        },
+        url: {
+            type: String,
+            default: "/"
         }
     }
 }

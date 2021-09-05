@@ -1,0 +1,40 @@
+.interna__container {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.interna__title {
+    
+    h1 {
+        color: $white;
+        font-size: 5rem;
+        font-weight: 300;
+        font-style: italic;
+    }
+    p {
+        
+        color: $white;
+        font-weight: 300;
+        font-size: 2rem;
+        margin: 1rem 0rem;
+    }
+}
+
+.interna__historia {
+    padding: 3rem 0rem;
+    p {
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: $white;
+    }
+}
+
+.interna__fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+/* Colors */
+$black: #000000;
+$white: #ffffff;
+
+
+/* Media query */
+$breakpoint-phone: 350px; 
+$breakpoint-tablet: 800px;
+$breakpoint-desktop: 1000px;
+
+
+body {
+    background-color: black;
+    font-family: 'Merriweather', serif;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    .wrapper {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: $breakpoint-desktop) {
+    .wrapper {
+        max-width: 90%;
+        
+    }
+}

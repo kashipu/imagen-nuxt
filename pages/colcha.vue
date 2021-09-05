@@ -1,8 +1,8 @@
 <template>
     <div>
         <Header/>
-        <div class="container__personajes">
-            <Personaje v-for="nombre in nombres" :key="nombre.nombres" :title="nombre.name" :image="nombre.img"/>
+        <div class="container__personajes wrapper">
+            <Personaje v-for="nombre in nombres" :key="nombre.nombres" :title="nombre.name" :image="nombre.img" :url="nombre.url"/>
         </div>
     </div>
 </template>
@@ -12,16 +12,16 @@ export default {
     data() {
         return {
             nombres: [
-                {name: "Carlos Montoya", img: "blancapineda.jpg"},
-                {name: "Carlos Montoya", img: "carlos.jpg"},
-                {name: "Carlos Montoya", img: "esperanza.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
-                {name: "Carlos Montoya", img: "angel.jpg"},
+                {name: "Carlos Montoya", img: "blancapineda.jpg", url:"/personaje/blanca-pineda"},
+                {name: "Carlos Montoya", img: "carlos.jpg", url:"/contacto"},
+                {name: "Carlos Montoya", img: "esperanza.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
+                {name: "Carlos Montoya", img: "angel.jpg", url:"/"},
             ],
         }
     }

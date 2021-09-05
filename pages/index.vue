@@ -6,6 +6,7 @@
         <p>Somos tejido colectivo</p>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
