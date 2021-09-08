@@ -34,7 +34,7 @@
                     que es la localidad.
                 </p>
             </div>
-            <VideoPlayer />
+            <VideoPlayer/>
             <div class="interna__podcast">
                 <iframe
                     src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
@@ -57,14 +57,10 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-export default {
+export default {    
     data() {
     },
 }
-=======
-export default {}
->>>>>>> parent of 449f2b7 (Add(-) Fixed bugs and video player and update header and blanca pineda page)
 </script>
 
 <style></style>

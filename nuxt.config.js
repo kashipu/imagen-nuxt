@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'imagen-nuxt',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },
@@ -23,7 +23,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    /* { src: '~/plugins/alert.js', mode: 'client' } */
+    /* { src: '~/plugins/plyr.js'} */
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
