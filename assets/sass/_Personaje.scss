@@ -1,31 +1,40 @@
 .container__personajes {
+    margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: 1fr 1fr;
+    gap: 25px;
     background-color: black;
+}
+
+.personaje__link {
+    text-decoration: none;
 }
 
 .personaje {
     font-family: 'Merriweather', serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
-    padding: .8rem;
+    line-height: 1.5;
+    position: relative;
 }
 
 .personaje__body {
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-    position: relative;
-    top: -10px;
 }
 
 .personaje__nombre {
-    padding: 1.2rem;
+    padding: 1.2rem .5rem;
     display: block;
-    position: absolute;
-    top: -60px;
+    top: 10px;
     color: white;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.424) 50%, rgba(0,0,0,0) 100%);
+    h2 {
+        &:hover {
+            color: #00ffb7;
+        } 
+    }
 }
 
 .personaje__img {

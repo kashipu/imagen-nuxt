@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="personaje">
-        <NuxtLink :to="url">
+        <NuxtLink class="personaje__link" :to="url">
         <div class="personaje__img">
             <img :src="require(`~/assets/images/${image}`)" :alt="title">
         </div>
