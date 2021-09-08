@@ -46,9 +46,9 @@
                 ></iframe>
             </div>
             <section class="interna__fotos">
-                <img src="http://via.placeholder.com/500x500" />
-                <img src="http://via.placeholder.com/500x500" />
-                <img src="http://via.placeholder.com/500x500" />
+                <img src="https://via.placeholder.com/500x500" />
+                <img src="https://via.placeholder.com/500x500" />
+                <img src="https://via.placeholder.com/500x500" />
             </section>
         </section>
 

@@ -43,11 +43,8 @@ export default {
   },
 
   googleFonts: {
-    download: true,
+    download: false,
     families: {
-      Roboto: true,
-      'Josefin+Sans': true,
-      Lato: [100, 300],
       Merriweather: {
         wght: [300, 400, 700],
         ital: [700]
