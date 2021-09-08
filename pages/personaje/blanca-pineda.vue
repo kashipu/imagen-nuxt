@@ -1,32 +1,70 @@
 <template>
-<div>
-    <Header/>
-    <section class="interna__container wrapper">
-        <div class="interna__title">
-            <h1>Blanca Pineda</h1>
-            <p>Escritora</p>
-        </div>
-        <VideoPlayer/>
-        <div class="interna__historia">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aspernatur reprehenderit ea et adipisci odit, delectus fuga sunt! Obcaecati aliquid dignissimos mollitia saepe doloremque a non reprehenderit temporibus aliquam culpa!
-            Illum voluptate aliquam maxime obcaecati officia. Nobis necessitatibus sapiente voluptatum unde nostrum non cumque dolorum, sequi eius totam, cum asperiores inventore sunt laborum perferendis, numquam et illo soluta cupiditate doloribus.
-            Sunt unde quod rem id corrupti, deleniti architecto non dolorem earum praesentium quo saepe nam inventore nulla quam pariatur iusto similique sapiente temporibus ducimus fugit accusantium totam. Ipsum, adipisci blanditiis?
-            Similique illum aliquam quam eum porro quos aut aliquid ex obcaecati est fugiat rem facere, harum officiis quas ipsa inventore dolorum soluta! Quam nisi, debitis hic earum id provident nesciunt?
-            Ratione optio velit accusantium rem. Temporibus rerum repellat consequatur minus! Alias ex, cupiditate molestias magnam asperiores id consequuntur quod sunt nihil odio vitae porro eum nostrum. Reiciendis ut quaerat sit?</p>
-        </div>
-        <section class="interna__fotos">
-            <img src="http://via.placeholder.com/500x500">
-            <img src="http://via.placeholder.com/500x500">
-            <img src="http://via.placeholder.com/500x500">
+    <div>
+        <Header />
+        <section class="interna__container wrapper">
+            <div class="interna__title">
+                <h1>Blanca Pineda</h1>
+                <p>Mujeres Tierra y Memoria</p>
+            </div>
+            <div class="interna__historia">
+                <p>
+                    Líder social y cultural, escritora e investigadora, se ha
+                    dedicado a la salvaguardia de la memoria y la realización
+                    procesos de apropiación del patrimonio cultural de la
+                    localidad de Ciudad Bolívar. Blanca es una tejedora de
+                    historias y narrativas de la localidad, quien ha promovido
+                    iniciativas culturales para fomentar la apropiación por el
+                    patrimonio material e inmaterial del territorio. Desde las
+                    artes, su colectivo, Mujeres, Tierra y Memoria, ha realizado
+                    procesos de memoria del barrio Ismael Perdomo; encuentros
+                    para la transmisión de saberes y el diálogo
+                    intergeneracional e intersectorial, el fortalecimiento de
+                    las redes de mujeres, víctimas y poblaciones étnicas.
+                </p>
+                <h2>Colcha de mil retazos</h2>
+                <p>
+                    Uno de los 18 libros que ha escrito Blanca, el cual relata
+                    la historia de la vida local, historias que se tejen desde
+                    las transformaciones. Como ella explica, son retazos de
+                    historias de habitantes del barrio Ismael Perdomo, miles de
+                    historias que se juntan y se entrelazan. Miles de
+                    pensamientos, sueños y recuerdos. Es así que Colcha de mil
+                    retazos es un libro donde el recuerdo es una forma de
+                    reencuentro y de perdón para el gran tejido de diversidad
+                    que es la localidad.
+                </p>
+            </div>
+            <VideoPlayer />
+            <div class="interna__podcast">
+                <iframe
+                    src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
+                    width="100%"
+                    height="232"
+                    frameBorder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                ></iframe>
+            </div>
+            <section class="interna__fotos">
+                <img src="http://via.placeholder.com/500x500" />
+                <img src="http://via.placeholder.com/500x500" />
+                <img src="http://via.placeholder.com/500x500" />
+            </section>
         </section>
-    </section>
-    
-    <Footer/>
-</div>
+
+        <Footer />
+    </div>
 </template>
 
 <script>
+<<<<<<< HEAD
+export default {
+    data() {
+    },
+}
+=======
 export default {}
+>>>>>>> parent of 449f2b7 (Add(-) Fixed bugs and video player and update header and blanca pineda page)
 </script>
 
 <style></style>

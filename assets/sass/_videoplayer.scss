@@ -1,6 +1,11 @@
 .player__container {
     background-color: $black;
-    video {
-        width: 100%;
+    height: 45vw;
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    .player__container {
+        background-color: $black;
+        height: 60vw;
     }
 }
