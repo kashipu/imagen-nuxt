@@ -2,16 +2,18 @@
   <div>
     <Header />
     <div class="colcha-title">
-        <a href="/colcha">
+      <a href="/colcha">
+        <div class="colcha-img">
           <img src="~/assets/images/logocolcha.png">
-        </a>
+        </div>
+      </a>
     </div>
     <div class="background_video">
       <video autoplay muted loop id="myVideo">
         <source src="~/assets/video/background.mp4" type="video/mp4">
       </video>
     </div>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
