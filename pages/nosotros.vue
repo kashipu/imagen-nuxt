@@ -1,18 +1,43 @@
 <template>
     <div>
-      <Header/>
-      <h1>Nosotros</h1>
+        <Header />
+        <div class="nosotros wrapper">
+            <div class="nosotros__box">
+                <h1>
+                    Somos un tejido artístico, una organización creativa gestora
+                    de proyectos audiovisuales.
+                </h1>
+            </div>
+            <div class="nosotros__text">
+                <p>
+                    Queremos contribuir al fortalecimiento sociocultural en
+                    diferentes regiones y sectores del país. Realizamos
+                    proyectos que hacen sinergia entre la producción multimedia
+                    y el uso de nuevas tecnologías.
+                </p>
+                <p>
+                    Generamos espacios pedagógicos como talleres, laboratorios y
+                    cursos alrededor del audiovisual que permiten la discusión y
+                    reflexión alrededor del mismo; creando de esta manera,
+                    experiencias de comunicación que conectan la mirada
+                    particular de cada quien con su comunidad y territorio, para
+                    la preservación y construcción de memoria
+                </p>
+                <p>
+                    Además, apoyamos el trabajo desarrollado por entidades que
+                    fomentan el desarrollo cultural, social y medioambiental a
+                    través de la gestión y ejecución de proyectos.
+                </p>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
 import nosotros from './nosotros.vue'
 export default {
-  components: { nosotros },
-
+    components: { nosotros },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

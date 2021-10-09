@@ -1,16 +1,41 @@
-.slider {
-    font-family: 'Merriweather', serif;
-    background-color: yellowgreen;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    p {
-        font-size: 5rem;
-    }
+$vh-index: 78vh;
+
+.background_video {
+    height: $vh-index;
 }
 
-/* .slider__text {
-    
-} */
+#myVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.colcha-title {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: $vh-index;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.colcha-title img {
+    width: 70%;
+}
+
+.colcha-title a {
+    text-decoration: none;
+}

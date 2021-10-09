@@ -1,17 +1,20 @@
 /* Colors */
 $black: #000000;
 $white: #ffffff;
-
+$hover: #00ffb7;
 
 /* Media query */
 $breakpoint-phone: 350px; 
 $breakpoint-tablet: 800px;
 $breakpoint-desktop: 1000px;
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: black;
-    font-family: 'Merriweather', serif;
+    font-family: 'Nunito Sans', 'Nunito', sans-serif;
 }
 
 .wrapper {

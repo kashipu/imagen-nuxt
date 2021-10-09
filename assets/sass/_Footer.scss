@@ -1,5 +1,48 @@
 footer {
-    margin-top: 5rem;
-    padding: 5rem;
-    background-color: gray;
+    padding: 1.5rem;
+}
+
+.links--footer {
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links--footer__list li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.links--footer__list li:first-child {
+    padding-left: 0rem;
+}
+
+.links--footer__list li a {
+    text-decoration: none;
+    color: $white;
+}
+
+.links--footer__list li a:hover {
+    color: $hover;
+}
+
+.links--footer__dev {
+    padding: 1rem;
+}
+
+.links--footer__dev a {
+    color: $hover;
+}
+
+@media (max-width: $breakpoint-tablet) {
+.links--footer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links--footer__list li:first-child {
+    padding-left: 1rem;
+}
 }
