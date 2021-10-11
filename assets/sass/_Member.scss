@@ -1,0 +1,50 @@
+.work-team-desk {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 3rem;
+}
+
+.team-member {
+    max-width: 45%;
+    text-align: center;
+    
+}
+
+.member-image img {
+    margin-bottom: 1rem;
+    max-width: 300px;
+    width: 100%;
+}
+
+.member-title {
+    h3 {
+        font-size: 1.5rem;
+        padding: .5rem 0rem;
+        font-weight: 700;
+    }
+    p {
+        font-size: 1.2rem;
+        padding: .5rem 0rem;
+    }
+    }
+
+.member-body {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 1rem 0rem;
+}
+
+@media (max-width: 1000px) {
+    .work-team-desk {
+        flex-direction: column;
+        align-content: center;
+    }
+    .team-member {
+        max-width: 100%;
+        text-align: center;
+    }
+}

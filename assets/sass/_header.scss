@@ -52,7 +52,7 @@
     }
 }
 
-@media only screen and (max-width: $breakpoint-tablet) {
+@media (max-width: $breakpoint-tablet) {
     .header {
         &__container {
             display: flex;

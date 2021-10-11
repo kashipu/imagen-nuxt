@@ -1,4 +1,4 @@
-$vh-index: 78vh;
+$vh-index: 80vh;
 
 .background_video {
     height: $vh-index;
@@ -40,10 +40,6 @@ $vh-index: 78vh;
 .colcha-img {
     display: flex;
     justify-content: center;
-}
-
-.colcha-img img {
-    width: 70%;
 }
 
 @media (max-width: $breakpoint-tablet) {

@@ -22,6 +22,12 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
 @media only screen and (max-width: $breakpoint-tablet) {
     .wrapper {
         max-width: 90%;

@@ -1,14 +1,15 @@
 <template>
     <div>
         <Header />
-        <div class="nosotros wrapper">
+        <div class="nosotros wrapper-nosotros">
             <div class="nosotros__box">
                 <h1>
                     Somos un tejido artístico, una organización creativa gestora
                     de proyectos audiovisuales.
                 </h1>
             </div>
-            <div class="nosotros__text">
+            <section class="nosotros__text">
+                <h2>Imagen Latente Films</h2>
                 <p>
                     Queremos contribuir al fortalecimiento sociocultural en
                     diferentes regiones y sectores del país. Realizamos
@@ -28,15 +29,27 @@
                     fomentan el desarrollo cultural, social y medioambiental a
                     través de la gestión y ejecución de proyectos.
                 </p>
-            </div>
+            </section>
+            <section class="work-team">
+                <h2>Equipo de trabajo</h2>
+                <div class="work-team-desk">
+                    <Member/>
+                    <Member/>
+                    <Member/>
+                    <Member/>
+                </div>
+            </section>
         </div>
+        <Footer />
     </div>
 </template>
 
 <script>
 import nosotros from './nosotros.vue'
 export default {
-    components: { nosotros },
+    components: {
+        nosotros,
+    },
 }
 </script>
 

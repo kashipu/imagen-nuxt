@@ -46,3 +46,9 @@ footer {
     padding-left: 1rem;
 }
 }
+
+@media (max-width: $breakpoint-phone) {
+    .links--footer__list li {
+        display: block;
+    }
+}

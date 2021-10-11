@@ -1,3 +1,9 @@
+.wrapper-nosotros {
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .nosotros{
     color: $white;
     &__box {
@@ -5,6 +11,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 300;
+        h1 {
+            font-size: 3rem;
+        }
     }
     &__title {
         font-size: 3rem;
@@ -14,6 +26,17 @@
         font-size: 1.2rem;
         line-height: 1.8;
         color: $white;
+        p{
+            margin: 2rem 0rem;
+        }
     }
 }
 
+@media (max-width: $breakpoint-tablet + 300) {
+    .wrapper-nosotros {
+        border: 1px solid red;
+        max-width: 90%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
