@@ -3,6 +3,11 @@
     padding-bottom: 2rem;
 }
 
+.test-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .interna__title {
     
     h1 {
@@ -39,14 +44,26 @@
 }
 
 .interna__fotos {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.foto_principal {
+    background-color: red;
     padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    img {
-        max-width: 100%;
-    }
+}
+
+.foto_principal img {
+    width: 100%;
+}
+
+.fotos_secundarias {
+    background-color: royalblue;
+}
+
+.fotos_secundarias img {
+    padding: 2rem;
 }
 
 .interna__podcast {

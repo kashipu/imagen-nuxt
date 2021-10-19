@@ -6,7 +6,7 @@
                     <li><a href="" target="_blank">Instagram </a></li>
                     <li><a href="" target="_blank">Youtube </a></li>
                 </ul>
-            <div class="links--footer__dev">Diseño y desarrollo - <a href="" target="_blank">William Moreno</a></div>
+            <div class="links--footer__dev">Diseño y desarrollo - <a href="https://www.linkedin.com/in/wmorenov/" target="_blank">William Moreno</a></div>
         </div>
     </footer>
 </template>

@@ -1,38 +1,36 @@
 <template>
-        <div class="team-member">
-            <div class="member-image">
+    <div class="team-member">
+        <!--  <div class="member-image">
                 <img src="https://via.placeholder.com/300x300" alt="" />
-            </div>
-            <div class="member-title">
-                <h3>Nombre miembro del equipo</h3>
-                <p>Cargo del miembro del equipo</p>
-            </div>
-            <div class="member-body">
-                <p>
-                    Escribió y dirigió “Los días de la ballena”, su ópera prima.
-                    Ha participado en el casting y la preparación de actores de
-                    películas nacionales e internacionales.
-                </p>
-            </div>
+            </div> -->
+        <div class="member-title">
+            <h3>{{name}}</h3>
+            <p>{{cargo}}</p>
         </div>
+        <div class="member-body">
+            <p>
+                {{summ}}
+            </p>
+        </div>
+    </div>
 </template>
 
 <script>
 export default {
     props: {
-        title: {
+        name: {
             type: String,
-            default: "Nombre Personaje"
+            default: 'Nombre miembro del equipo',
         },
-        image: {
+        cargo: {
             type: String,
-            default: "http://via.placeholder.com/400x400"
+            default: 'Cargo del miembro del equipo',
         },
-        url: {
+        summ: {
             type: String,
-            default: "/"
-        }
-    }
+            default:'Escribió y dirigió “Los días de la ballena”, su ópera prima. Ha participado en el casting y la preparación de actores de películas nacionales e internacionales.',
+        },
+    },
 }
 </script>
 

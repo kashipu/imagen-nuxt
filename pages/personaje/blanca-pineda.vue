@@ -34,7 +34,7 @@
                     que es la localidad.
                 </p>
             </div>
-            <VideoPlayer/>
+            <VideoPlayer video="https://www.youtube.com/embed/LTTaB5Mi4rE"/>
             <div class="interna__podcast">
                 <iframe
                     src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
@@ -45,11 +45,11 @@
                     allow="encrypted-media"
                 ></iframe>
             </div>
-            <section class="interna__fotos">
+        <!--  <section class="interna__fotos">
                 <img src="https://via.placeholder.com/500x500" />
                 <img src="https://via.placeholder.com/500x500" />
                 <img src="https://via.placeholder.com/500x500" />
-            </section>
+            </section> -->
         </section>
 
         <Footer />

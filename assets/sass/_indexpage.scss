@@ -1,4 +1,12 @@
-$vh-index: 80vh;
+$vh-index: 90vh;
+
+.background-image {
+    height: $vh-index;
+    background: url(~/assets/images/Fondo2.png);
+    background-size: cover;
+    opacity: 0.8;
+    filter: blur(1px);
+}
 
 .background_video {
     height: $vh-index;
@@ -41,6 +49,7 @@ $vh-index: 80vh;
     display: flex;
     justify-content: center;
 }
+
 
 @media (max-width: $breakpoint-tablet) {
     .colcha-img img {

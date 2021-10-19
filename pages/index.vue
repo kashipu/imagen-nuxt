@@ -8,10 +8,13 @@
         </div>
       </a>
     </div>
-    <div class="background_video">
+    <!-- <div class="background_video">
       <video autoplay muted loop id="myVideo">
         <source src="~/assets/video/background.mp4" type="video/mp4">
       </video>
+    </div> -->
+    <div class="background-image">
+      
     </div>
     <Footer />
   </div>

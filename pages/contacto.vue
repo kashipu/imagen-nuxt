@@ -1,5 +1,7 @@
 <template>
-    <Header/>
+    <div>
+        <Header/>
+    </div>
 </template>
 
 <script>

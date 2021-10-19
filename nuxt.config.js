@@ -20,11 +20,6 @@ export default {
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: ['~/assets/sass/main.scss'],
 
-    // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [
-        /* { src: '~/plugins/plyr.js'} */
-    ],
-
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
 
@@ -32,22 +27,27 @@ export default {
     buildModules: ['@nuxtjs/google-fonts'],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: [],
-
+    modules: ['@nuxtjs/gtm', ],
+    gtm: {
+        id: 'GTM-5CTSSZP',
+        enabled: true
+    },
+     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+    plugins: [
+    ],
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
 
     googleFonts: {
         download: false,
         families: {
-            'Nunito': {
-                ital: [700,800],
-                wght: [300,700,800]
+            Nunito: {
+                ital: [700, 800],
+                wght: [300, 700, 800],
             },
             'Nunito+Sans': {
                 wght: [300, 400, 700],
-                
-            }
+            },
         },
     },
 }
