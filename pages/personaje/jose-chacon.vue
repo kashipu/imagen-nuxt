@@ -37,7 +37,7 @@
                     que es la localidad.
                 </p>
             </div>
-            <VideoPlayer video="https://www.youtube.com/embed/LTTaB5Mi4rE" />
+            <VideoPlayer video="https://www.youtube.com/embed/ME9bj87rJV8" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
                 <iframe

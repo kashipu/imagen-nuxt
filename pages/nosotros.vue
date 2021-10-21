@@ -34,9 +34,9 @@
             </section>
             <section class="nosotros__fotos">
                 <div class="fotos_container">
-                    <img src="http://via.placeholder.com/550x700" alt="" srcset="">
-                    <img src="http://via.placeholder.com/550x700" alt="" srcset="">
-                    <img src="http://via.placeholder.com/550x700" alt="" srcset="">
+                    <img src="https://via.placeholder.com/550x700" alt="" srcset="">
+                    <img src="https://via.placeholder.com/550x700" alt="" srcset="">
+                    <img src="https://via.placeholder.com/550x700" alt="" srcset="">
                 </div>
             </section>
             <section class="work-team">

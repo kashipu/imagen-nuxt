@@ -9,7 +9,6 @@
 }
 
 .interna__title {
-    
     h1 {
         color: $white;
         font-family: 'Nunito';
@@ -23,6 +22,7 @@
         font-weight: 300;
         font-size: 2rem;
         margin: 1rem 0rem;
+        line-height: 1.5;
     }
 }
 
@@ -43,29 +43,35 @@
     }
 }
 
-.interna__fotos {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.foto_principal {
-    background-color: red;
-    padding: 2rem;
-}
-
-.foto_principal img {
-    width: 100%;
-}
-
-.fotos_secundarias {
-    background-color: royalblue;
-}
-
-.fotos_secundarias img {
-    padding: 2rem;
-}
-
 .interna__podcast {
     padding: 2rem 0rem;
 }
+
+.contenedor__fotos {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contenedor__secundario {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.contenedor__principal img {
+    width: 100%;
+}
+
+.contenedor__secundario img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .contenedor__fotos {
+        grid-template-columns: 1fr;
+    }
+}
+

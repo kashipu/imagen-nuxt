@@ -67,4 +67,11 @@
         width: 100%;
         margin: 0 auto;
     }
+    .fotos_container {
+        grid-template-columns: 1fr;
+    }
+    
+    .fotos_container img {
+        width: 100%;
+    }
 }
