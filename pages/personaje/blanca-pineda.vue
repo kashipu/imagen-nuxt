@@ -40,14 +40,6 @@
             <VideoPlayer video="https://www.youtube.com/embed/LTTaB5Mi4rE" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
-                <iframe
-                    src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
-                    width="100%"
-                    height="232"
-                    frameBorder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media"
-                ></iframe>
             </div>
         </section>
 
@@ -56,7 +48,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'Blanca Pineda | Colcha de Retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Líder social y cultural, escritora e investigadora, se ha dedicado a la salvaguardia de la memoria y la realización procesos de apropiación del patrimonio cultural de la localidad de Ciudad Bolívar.',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

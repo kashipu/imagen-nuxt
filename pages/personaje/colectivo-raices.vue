@@ -9,7 +9,7 @@
             <section class="interna__fotos">
                 <FotosPersonaje
                     carpeta="raices"
-                    alternativo="Fotografía, Blanca Pineda"
+                    alternativo="Fotografías, Soranny Vargas - Mille Palomino - Liliana Reyes"
                 />
             </section>
             <div class="interna__historia">
@@ -35,7 +35,7 @@
                     admirar la belleza de sus hojas.
                 </p>
             </div>
-            <VideoPlayer video="https://www.youtube.com/embed/-CJW32M0e1E" />
+            <VideoPlayer video="https://www.youtube.com/embed/zLRrM7zwE8Y" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
                 <iframe
@@ -54,7 +54,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'Soranny Vargas - Mille Palomino - Liliana Reyes | Colcha de Retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Colectivo de tres mujeres gestoras de proyectos sociales, culturales y artísticos con niños y jóvenes de la localidad de Ciudad Bolívar',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

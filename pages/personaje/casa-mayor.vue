@@ -45,14 +45,6 @@
             <VideoPlayer video="https://www.youtube.com/embed/-CJW32M0e1E" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
-                <iframe
-                    src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
-                    width="100%"
-                    height="232"
-                    frameBorder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media"
-                ></iframe>
             </div>
         </section>
 
@@ -61,7 +53,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'Mayerli Peña & Videlma Yaima | Colcha de Retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Mayerli Peña y Videlma son lideresas comunitarias quienes guían el proyecto social que incluyen personas de la tercera edad en diversos procesos sociales y culturales.',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

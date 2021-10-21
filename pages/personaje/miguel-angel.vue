@@ -7,7 +7,10 @@
                 <p>Sastre & costurero</p>
             </div>
             <section class="interna__fotos">
-                <FotosPersonaje alternativo="Fotografía, Blanca Pineda" />
+                <FotosPersonaje
+                    carpeta="miguelangel"
+                    alternativo="Fotografía, Blanca Pineda"
+                />
             </section>
             <section class="interna__historia">
                 <p>
@@ -42,14 +45,6 @@
             <VideoPlayer video="https://www.youtube.com/embed/LTTaB5Mi4rE" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
-                <iframe
-                    src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
-                    width="100%"
-                    height="232"
-                    frameBorder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media"
-                ></iframe>
             </div>
         </section>
 
@@ -58,7 +53,19 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'Miguel Ángel Lozano | Colcha de retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content:
+                    'Miguel Ángel es residente de la localidad desde hace 30 años cuando en el barrio Paraíso en Ciudad Bolívar se empezaban a construir las primeras casas',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

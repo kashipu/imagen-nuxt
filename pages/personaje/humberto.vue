@@ -37,17 +37,9 @@
                     ampliamente.
                 </p>
             </div>
-            <VideoPlayer video="https://www.youtube.com/embed/8IEcBBkHCUo" />
+            <VideoPlayer video="https://www.youtube.com/embed/oasBt5V6YeE" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
-                <iframe
-                    src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
-                    width="100%"
-                    height="232"
-                    frameBorder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media"
-                ></iframe>
             </div>
         </section>
 
@@ -56,7 +48,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'Humberto Oviedo | Colcha de Retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'En altos de la estancia, la historia de Humberto Oviedo resuena por su relación con la tierra, la conservación de los saberes campesinos',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

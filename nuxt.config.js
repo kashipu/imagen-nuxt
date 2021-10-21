@@ -11,7 +11,8 @@ export default {
                 name: 'viewport',
                 content: 'width=device-width, initial-scale=1',
             },
-            { hid: 'description', name: 'description', content: '' },
+            { hid: 'description', name: 'description', content: 'Somos un tejido artístico, una organización creativa gestora de proyectos audiovisuales. Queremos contribuir al fortalecimiento sociocultural en diferentes regiones y sectores del país. Realizamos proyectos que hacen sinergia entre la producción multimedia y el uso de nuevas tecnologías.' },
+            { hid: 'og:image', property: 'og:image', content: '~/assets/images/imagenlatente.png',},
             { name: 'format-detection', content: 'telephone=no' },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -27,7 +28,7 @@ export default {
     buildModules: ['@nuxtjs/google-fonts'],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: ['@nuxtjs/gtm', ],
+    modules: ['@nuxtjs/gtm', '@nuxtjs/robots'],
     gtm: {
         id: 'GTM-5CTSSZP',
         enabled: true

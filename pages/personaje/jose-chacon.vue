@@ -3,38 +3,38 @@
         <Header />
         <section class="interna__container wrapper">
             <div class="interna__title">
-                <h1>Blanca Pineda</h1>
-                <p>Mujeres Tierra y Memoria</p>
+                <h1>José Chacón</h1>
+                <p>Viajero del Tiempo - Fundación Niños con Futuro</p>
             </div>
             <section class="interna__fotos">
-                <FotosPersonaje alternativo="Fotografía, Blanca Pineda" />
+                <FotosPersonaje
+                    carpeta="josechacon"
+                    alternativo="Fotografía, Blanca Pineda"
+                />
             </section>
             <div class="interna__historia">
                 <p>
-                    Líder social y cultural, escritora e investigadora, se ha
-                    dedicado a la salvaguardia de la memoria y la realización
-                    procesos de apropiación del patrimonio cultural de la
-                    localidad de Ciudad Bolívar. Blanca es una tejedora de
-                    historias y narrativas de la localidad, quien ha promovido
-                    iniciativas culturales para fomentar la apropiación por el
-                    patrimonio material e inmaterial del territorio. Desde las
-                    artes, su colectivo, Mujeres, Tierra y Memoria, ha realizado
-                    procesos de memoria del barrio Ismael Perdomo; encuentros
-                    para la transmisión de saberes y el diálogo
-                    intergeneracional e intersectorial, el fortalecimiento de
-                    las redes de mujeres, víctimas y poblaciones étnicas.
+                    Líder comunitario y cultural del Barrio Bella Flor y
+                    Paraíso. Realiza acciones por el territorio a través de la
+                    Fundación Niños con Futuro. A través del archivo, José
+                    trabaja por rescatar y compartir la memoria de la localidad
+                    en fotografías de los primeros habitantes, la arquitectura,
+                    los eventos familiares y las transformaciones de los
+                    espacios de la localidad. En una de sus actividades de
+                    formación, José enseña a niños y jóvenes de la localidad a
+                    redescubrir y maravillarse de los lugares a través de la
+                    fotografía estenopeica, que es un proceso de tiempo y
+                    atención plena en cada fotografía, espacios de formación que
+                    son propicios para hablar de la memoria viva y en constante
+                    construcción.
                 </p>
-                <h2>Colcha de mil retazos</h2>
+                <h2>Archivo Fotográfico | viajes a través del tiempo</h2>
                 <p>
-                    Uno de los 18 libros que ha escrito Blanca, el cual relata
-                    la historia de la vida local, historias que se tejen desde
-                    las transformaciones. Como ella explica, son retazos de
-                    historias de habitantes del barrio Ismael Perdomo, miles de
-                    historias que se juntan y se entrelazan. Miles de
-                    pensamientos, sueños y recuerdos. Es así que Colcha de mil
-                    retazos es un libro donde el recuerdo es una forma de
-                    reencuentro y de perdón para el gran tejido de diversidad
-                    que es la localidad.
+                    El archivo fotográfico que José Chacón conserva, contiene
+                    las fotografías de los primeros habitantes de la localidad.
+                    En ellas, las reuniones familiares, los festivales, los
+                    juegos de los niños en las cuadres y la arquitectura
+                    cambiante son la muestra del paso del tiempo.
                 </p>
             </div>
             <VideoPlayer video="https://www.youtube.com/embed/ME9bj87rJV8" />
@@ -56,7 +56,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'José Chacón | Colcha de Retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Líder comunitario y cultural del Barrio Bella Flor y Paraíso. Realiza acciones por el territorio a través de la Fundación Niños con Futuro.',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

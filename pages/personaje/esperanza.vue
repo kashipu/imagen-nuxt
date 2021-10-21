@@ -8,8 +8,8 @@
             </div>
             <section class="interna__fotos">
                 <FotosPersonaje
-                    carpeta="raices"
-                    alternativo="Fotografía, Blanca Pineda"
+                    carpeta="esperanza"
+                    alternativo="Fotografía, Esperanza Bustos"
                 />
             </section>
             <div class="interna__historia">
@@ -58,7 +58,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head: {
+        title: 'Esperanza Bustos | Colcha de Retazos',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Desde 1989 el trabajo de Esperanza se ha centrado en el servicio de la población de la tercera edad.',
+            },
+        ],
+    },
+}
 </script>
 
 <style></style>

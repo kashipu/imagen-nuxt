@@ -1,13 +1,13 @@
 <template>
     <div>
         <Header />
-            <div class="colcha__enlaces">
-                <div class="enlaces__box">
-                    <h2 v-for="nombre in nombres" :key="nombre.name">
-                        <a target="_blank" :href="nombre.url">{{ nombre.name }}</a>
-                    </h2>
-                </div>
+        <div class="colcha__enlaces">
+            <div class="enlaces__box">
+                <h2 v-for="nombre in nombres" :key="nombre.name">
+                    <a target="_blank" :href="nombre.url">{{ nombre.name }}</a>
+                </h2>
             </div>
+        </div>
         <section class="nosotros__text wrapper-nosotros">
             <h2>Colcha de Retazos</h2>
             <h3></h3>
@@ -85,6 +85,17 @@ export default {
                 },
             ],
         }
+    },
+    head: {
+        title: 'Colcha de Retazos | Imagen Latente',
+        meta: [
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Colcha de Retazos es un tejido diverso formado por muchos rostros, historias y encuentros inspiradores. A cada una de las personas aquí retratadas, agradecemos su trabajo de compartir la riqueza y el patrimonio de Ciudad Bolívar.',
+            },
+            { hid: 'og:image', property: 'og:image', content: '~/assets/images/colchaderetazos.png',}
+        ],
     },
 }
 </script>
