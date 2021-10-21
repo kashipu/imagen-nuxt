@@ -1,40 +1,29 @@
 <template>
     <div>
         <Header />
-        <div class="container__colcha">
-            <div class="colcha__nombres">
-                <div class="colcha__title">
-                    <h1>Colcha de retazos</h1>
-                </div>
-                <div class="colcha__enlaces">
+            <div class="colcha__enlaces">
+                <div class="enlaces__box">
                     <h2 v-for="nombre in nombres" :key="nombre.name">
                         <a target="_blank" :href="nombre.url">{{ nombre.name }}</a>
                     </h2>
                 </div>
             </div>
-            <section class="nosotros__text wrapper-nosotros">
-                <h2>Imagen Latente Films</h2>
-                <p>
-                    Queremos contribuir al fortalecimiento sociocultural en
-                    diferentes regiones y sectores del país. Realizamos
-                    proyectos que hacen sinergia entre la producción multimedia
-                    y el uso de nuevas tecnologías.
-                </p>
-                <p>
-                    Generamos espacios pedagógicos como talleres, laboratorios y
-                    cursos alrededor del audiovisual que permiten la discusión y
-                    reflexión alrededor del mismo; creando de esta manera,
-                    experiencias de comunicación que conectan la mirada
-                    particular de cada quien con su comunidad y territorio, para
-                    la preservación y construcción de memoria
-                </p>
-                <p>
-                    Además, apoyamos el trabajo desarrollado por entidades que
-                    fomentan el desarrollo cultural, social y medioambiental a
-                    través de la gestión y ejecución de proyectos.
-                </p>
-            </section>
-        </div>
+        <section class="nosotros__text wrapper-nosotros">
+            <h2>Colcha de Retazos</h2>
+            <h3></h3>
+            <p>
+                Colcha de Retazos es un tejido diverso formado por muchos
+                rostros, historias y encuentros inspiradores. A cada una de las
+                personas aquí retratadas, agradecemos su trabajo de compartir la
+                riqueza y el patrimonio de Ciudad Bolívar.
+            </p>
+            <p>
+                Este proyecto ha sido realizado gracias a la Beca para el
+                Reconocimiento y La Activación del Patrimonio Cultural de
+                Sectores Sociales 2021 del Instituto Distrital de Patrimonio
+                Cultural de Bogotá.
+            </p>
+        </section>
         <Footer />
     </div>
 </template>

@@ -16,7 +16,7 @@
                     <li><NuxtLink to="/">Home page</NuxtLink></li>
                     <li><NuxtLink to="/nosotros">Nosotros</NuxtLink></li>
                     <li><NuxtLink to="/colcha">Colcha de retazos</NuxtLink></li>
-                    <li><NuxtLink to="/contacto">Contacto</NuxtLink></li>
+                    <!-- <li><NuxtLink to="/contacto">Contacto</NuxtLink></li> -->
                 </ul>
             </nav>
         </div>

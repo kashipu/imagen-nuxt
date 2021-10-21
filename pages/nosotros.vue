@@ -4,7 +4,7 @@
             <div class="nosotros__box">
                 <div class="nosotros__title wrapper-nosotros">
                     <h1>
-                        Somos un tejido artístico, una organización creativa gestora
+                        Somos un <span>tejido artístico</span>, una organización creativa gestora
                         de proyectos audiovisuales.
                     </h1>
                 </div>
@@ -31,6 +31,13 @@
                     fomentan el desarrollo cultural, social y medioambiental a
                     través de la gestión y ejecución de proyectos.
                 </p>
+            </section>
+            <section class="nosotros__fotos">
+                <div class="fotos_container">
+                    <img src="http://via.placeholder.com/550x700" alt="" srcset="">
+                    <img src="http://via.placeholder.com/550x700" alt="" srcset="">
+                    <img src="http://via.placeholder.com/550x700" alt="" srcset="">
+                </div>
             </section>
             <section class="work-team">
                 <h2>Equipo de trabajo</h2>
@@ -63,6 +70,7 @@
                 </div>
             </section>
         </div>
+            <SliderLogos/>
         <Footer />
     </div>
 </template>
@@ -76,4 +84,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+h2 {
+    color: white;
+}
+</style>

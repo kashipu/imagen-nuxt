@@ -1,10 +1,13 @@
 <template>
     <div class="slider-logos">
-        <ul>
-            <li v-for="(image, i) in logos" :key="i">
-                <img :src="require(`~/assets/images/logos/${image}`)" alt="" />
-            </li>
-        </ul>
+        <div class="logos-container wrapper-nosotros">
+            <img
+                v-for="(image, i) in logos"
+                :key="i"
+                :src="require(`~/assets/images/logos/${image}`)"
+                alt=""
+            />
+        </div>
     </div>
 </template>
 
@@ -21,7 +24,7 @@ export default {
                 'idpc.png',
                 'mincultura.png',
                 'mintic.png',
-                'poli.png'
+                'poli.png',
             ],
         }
     },

@@ -14,17 +14,21 @@
         text-align: center;
         line-height: 1.5;
         font-weight: 300;
-        background: gray;
+        background-image: url(~/assets/images/backgroundoptimized.webp);
         filter: grayscale(100);
         background-position: center;
         background-size: cover;
         margin-bottom: 3rem;
         h1 {
             font-size: 3rem;
+            color: $white;
+            font-weight: 700;
+            text-shadow: 10px 10px 10px black;
         }
     }
     &__title {
         font-size: 3rem;
+        
     }
     &__text {
         font-weight: 300;
@@ -35,6 +39,26 @@
             margin: 2rem 0rem;
         }
     }
+    &__fotos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+}
+
+.work-team {
+    margin-bottom: 8rem;
+}
+
+
+.fotos_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.fotos_container img {
+    width: 100%;
 }
 
 @media (max-width: $breakpoint-tablet + 300) {

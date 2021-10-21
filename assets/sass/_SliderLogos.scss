@@ -1,6 +1,15 @@
 
-.slider-logos ul {
+.slider-logos {
+    background-color: $white;
     display: flex;
-    overflow: auto;
+    
+    filter: grayscale(500);
+    padding: 3rem 1rem;
 }
 
+.logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
