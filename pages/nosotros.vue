@@ -18,6 +18,14 @@
                     proyectos que hacen sinergia entre la producción multimedia
                     y el uso de nuevas tecnologías.
                 </p>
+                <div class="fotos__container1">
+                    <div class="fotogrid1">
+                        <img src="~/assets/images/FotosComp/1.webp" />
+                    </div>
+                    <div class="fotogrid2">
+                        <img src="~/assets/images/FotosComp/2.webp" />
+                    </div>
+                </div>
                 <p>
                     Generamos espacios pedagógicos como talleres, laboratorios y
                     cursos alrededor del audiovisual que permiten la discusión y
@@ -26,31 +34,30 @@
                     particular de cada quien con su comunidad y territorio, para
                     la preservación y construcción de memoria
                 </p>
+                <div class="fotos__container2">
+                    <div class="fotogrid">
+                        <img src="~/assets/images/FotosComp/6.webp" />
+                        <img src="~/assets/images/FotosComp/3.webp" />
+                    </div>
+                    <div class="fotogrid">
+                        <img src="~/assets/images/FotosComp/5.webp" />
+                    </div>
+                </div>
                 <p>
                     Además, apoyamos el trabajo desarrollado por entidades que
                     fomentan el desarrollo cultural, social y medioambiental a
                     través de la gestión y ejecución de proyectos.
                 </p>
-            </section>
-            <section class="nosotros__fotos">
-                <div class="fotos_container">
-                    <img
-                        src="https://via.placeholder.com/550x700"
-                        alt=""
-                        srcset=""
-                    />
-                    <img
-                        src="https://via.placeholder.com/550x700"
-                        alt=""
-                        srcset=""
-                    />
-                    <img
-                        src="https://via.placeholder.com/550x700"
-                        alt=""
-                        srcset=""
-                    />
+                <div class="fotos__container3">
+                <div class="fotogrid">
+                    <img src="~/assets/images/FotosComp/4.webp" />
                 </div>
+                <div class="fotogrid">
+                    <img src="~/assets/images/FotosComp/7.webp" />
+                </div>
+            </div>
             </section>
+            
             <section class="work-team">
                 <h2>Equipo de trabajo</h2>
                 <div class="work-team-desk">
@@ -99,7 +106,8 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content:'Somos un tejido artístico, una organización creativa gestora de proyectos audiovisuales. Queremos contribuir al fortalecimiento sociocultural en diferentes regiones y sectores del país. Realizamos proyectos que hacen sinergia entre la producción multimedia y el uso de nuevas tecnologías.',
+                content:
+                    'Somos un tejido artístico, una organización creativa gestora de proyectos audiovisuales. Queremos contribuir al fortalecimiento sociocultural en diferentes regiones y sectores del país. Realizamos proyectos que hacen sinergia entre la producción multimedia y el uso de nuevas tecnologías.',
             },
         ],
     },

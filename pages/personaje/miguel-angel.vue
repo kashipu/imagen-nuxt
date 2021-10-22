@@ -42,7 +42,7 @@
                     herramienta a Miguel, para que la tuviera en sus recuerdos.
                 </p>
             </section>
-            <VideoPlayer video="https://www.youtube.com/embed/LTTaB5Mi4rE" />
+            <VideoPlayer video="https://www.youtube.com/embed/lFFxGpBCyck" />
             <div class="interna__podcast">
                 <h2>Podcast</h2>
             </div>

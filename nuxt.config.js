@@ -33,15 +33,23 @@ export default {
         id: 'GTM-5CTSSZP',
         enabled: true
     },
+    sitemap: {
+        path: '/sitemap.xml',
+        hostname: 'https://imagenlatente.co',
+        gzip: true,
+    },
     
      // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
     ],
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {},
+    build: {
+        
+    },
 
     googleFonts: {
         download: false,
+        display: 'swap',
         families: {
             Nunito: {
                 ital: [700, 800],
