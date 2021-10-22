@@ -40,17 +40,9 @@
                 </p>
             </div>
             <VideoPlayer video="https://www.youtube.com/embed/8IEcBBkHCUo" />
-            <div class="interna__podcast">
+            <!-- <div class="interna__podcast">
                 <h2>Podcast</h2>
-                <iframe
-                    src="https://open.spotify.com/embed/episode/7h86MHdhXKOX5qrPixuOCI"
-                    width="100%"
-                    height="232"
-                    frameBorder="0"
-                    allowtransparency="true"
-                    allow="encrypted-media"
-                ></iframe>
-            </div>
+            </div> -->
         </section>
 
         <Footer />

@@ -35,9 +35,9 @@
                 </p>
             </section>
             <VideoPlayer video="https://www.youtube.com/embed/xrTuAh6ITa0" />
-            <div class="interna__podcast">
+           <!--  <div class="interna__podcast">
                 <h2>Podcast</h2>
-            </div>
+            </div> -->
         </section>
 
         <Footer />
