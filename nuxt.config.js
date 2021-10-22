@@ -28,11 +28,12 @@ export default {
     buildModules: ['@nuxtjs/google-fonts'],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: ['@nuxtjs/gtm', '@nuxtjs/robots'],
+    modules: ['@nuxtjs/gtm', '@nuxtjs/robots', '@nuxtjs/sitemap'],
     gtm: {
         id: 'GTM-5CTSSZP',
         enabled: true
     },
+    
      // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
     ],
