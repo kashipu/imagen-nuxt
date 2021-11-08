@@ -7,7 +7,10 @@
                 <p>Fundación Mizizi Ya mababú</p>
             </div>
             <section class="interna__fotos">
-                <FotosPersonaje carpeta="pablo" alternativo="Fotografía, Pablo Gruezo" />
+                <FotosPersonaje
+                    carpeta="pablo"
+                    alternativo="Fotografía, Pablo Gruezo"
+                />
             </section>
             <section class="interna__historia">
                 <p>
@@ -35,9 +38,17 @@
                 </p>
             </section>
             <VideoPlayer video="https://www.youtube.com/embed/spPFpRo3wp0" />
-            <!-- <div class="interna__podcast">
+            <div class="interna__podcast">
                 <h2>Podcast</h2>
-            </div> -->
+                <iframe
+                    src="https://open.spotify.com/embed/episode/3bQdZeKdMrEyPYyNIFKDnc?utm_source=generator"
+                    width="100%"
+                    height="232"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                ></iframe>
+            </div>
         </section>
 
         <Footer />
@@ -46,7 +57,7 @@
 
 <script>
 export default {
-     head: {
+    head: {
         title: 'Pablo Gruezo | Colcha de retazos',
         meta: [
             {

@@ -38,9 +38,17 @@
                 </p>
             </div>
             <VideoPlayer video="https://www.youtube.com/embed/ME9bj87rJV8" />
-           <!--  <div class="interna__podcast">
+            <div class="interna__podcast">
                 <h2>Podcast</h2>
-            </div> -->
+                <iframe
+                    src="https://open.spotify.com/embed/episode/1VAhDL0NaldlEVa3BI4BCA?utm_source=generator"
+                    width="100%"
+                    height="232"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                ></iframe>
+            </div>
         </section>
 
         <Footer />
@@ -55,7 +63,8 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: 'Líder comunitario y cultural del Barrio Bella Flor y Paraíso. Realiza acciones por el territorio a través de la Fundación Niños con Futuro.',
+                content:
+                    'Líder comunitario y cultural del Barrio Bella Flor y Paraíso. Realiza acciones por el territorio a través de la Fundación Niños con Futuro.',
             },
         ],
     },

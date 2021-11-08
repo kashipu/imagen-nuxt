@@ -38,9 +38,17 @@
                 </p>
             </div>
             <VideoPlayer video="https://www.youtube.com/embed/LTTaB5Mi4rE" />
-            <!-- <div class="interna__podcast">
+            <div class="interna__podcast">
                 <h2>Podcast</h2>
-            </div> -->
+                <iframe
+                    src="https://open.spotify.com/embed/episode/2yy5RoOy06ZpSujpqWTEwY?utm_source=generator"
+                    width="100%"
+                    height="232"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                ></iframe>
+            </div>
         </section>
 
         <Footer />
@@ -55,7 +63,8 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: 'Líder social y cultural, escritora e investigadora, se ha dedicado a la salvaguardia de la memoria y la realización procesos de apropiación del patrimonio cultural de la localidad de Ciudad Bolívar.',
+                content:
+                    'Líder social y cultural, escritora e investigadora, se ha dedicado a la salvaguardia de la memoria y la realización procesos de apropiación del patrimonio cultural de la localidad de Ciudad Bolívar.',
             },
         ],
     },

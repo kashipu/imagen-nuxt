@@ -10,7 +10,10 @@
                 </p>
             </div>
             <section class="interna__fotos">
-                <FotosPersonaje carpeta="jorgenury" alternativo="Fotografía, Jorge Ariza y Nury Tique" />
+                <FotosPersonaje
+                    carpeta="jorgenury"
+                    alternativo="Fotografía, Jorge Ariza y Nury Tique"
+                />
             </section>
             <section class="interna__historia">
                 <p>
@@ -35,9 +38,17 @@
                 </p>
             </section>
             <VideoPlayer video="https://www.youtube.com/embed/xrTuAh6ITa0" />
-           <!--  <div class="interna__podcast">
+            <div class="interna__podcast">
                 <h2>Podcast</h2>
-            </div> -->
+                <iframe
+                    src="https://open.spotify.com/embed/episode/0EdUJSdFOc8xX8uYZkxpKc?utm_source=generator"
+                    width="100%"
+                    height="232"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                ></iframe>
+            </div>
         </section>
 
         <Footer />
@@ -46,13 +57,14 @@
 
 <script>
 export default {
-     head: {
+    head: {
         title: 'Jorge Ariza & Nury Tique | Colcha de Retazos',
         meta: [
             {
                 hid: 'description',
                 name: 'description',
-                content: 'Llegaron a Bogotá desde el 2004 y habitan la localidad en uno de los asentamientos cercano al barrio Paraíso. Jorge y Nury reconstruyen el ecosistema a través de acciones para el cuidado del medio ambiente.',
+                content:
+                    'Llegaron a Bogotá desde el 2004 y habitan la localidad en uno de los asentamientos cercano al barrio Paraíso. Jorge y Nury reconstruyen el ecosistema a través de acciones para el cuidado del medio ambiente.',
             },
         ],
     },

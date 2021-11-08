@@ -38,9 +38,17 @@
                 </p>
             </div>
             <VideoPlayer video="https://www.youtube.com/embed/oasBt5V6YeE" />
-           <!--  <div class="interna__podcast">
+            <div class="interna__podcast">
                 <h2>Podcast</h2>
-            </div> -->
+                <iframe
+                    src="https://open.spotify.com/embed/episode/1K0cOhgQ81Xt7IdQb8YL7A?utm_source=generator"
+                    width="100%"
+                    height="232"
+                    frameBorder="0"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                ></iframe>
+            </div>
         </section>
 
         <Footer />
@@ -55,7 +63,8 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: 'En altos de la estancia, la historia de Humberto Oviedo resuena por su relación con la tierra, la conservación de los saberes campesinos',
+                content:
+                    'En altos de la estancia, la historia de Humberto Oviedo resuena por su relación con la tierra, la conservación de los saberes campesinos',
             },
         ],
     },
